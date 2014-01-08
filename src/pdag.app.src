@@ -1,0 +1,14 @@
+{application, pdag,
+ [
+  {description, ""},
+  {vsn, "0.1"},
+  {modules, [ ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {included_applications, [pdag]},
+  {mod, { pdag_app, [] }},
+  {env, []}
+ ]}.
